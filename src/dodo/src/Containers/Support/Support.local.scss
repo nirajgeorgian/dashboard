@@ -1,0 +1,49 @@
+.container {
+  margin-top: 22px;
+  width: 97%;
+  background-color: #fff;
+  box-shadow: 0 0 10px #d2cccc;
+  border-radius: 5px;
+  height: 78vh;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  .sidebar {
+    height: calc(100vh - 145px);
+    width: calc(20vw - 2px);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    flex: 1;
+    min-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+    .searchbox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 4rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      .usersearch {
+        input {
+          border-radius: 1px !important;
+        }
+      }
+    }
+    .userlist {
+      flex: 1;
+      overflow-y: scroll;
+    }
+  }
+  .messageBox {
+    flex: 3;
+  }
+}
+
+.portal {
+  position: absolute !important;
+  top: 65% !important;
+  left: 1% !important;
+  z-index: 10 !important;
+}

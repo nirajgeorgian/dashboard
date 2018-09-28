@@ -1,0 +1,39 @@
+.cardImage {
+	height: 2rem;
+	width: 2rem;
+}
+
+.extra {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.editEmployee,
+.end,
+.start {
+	font-size: 1.2rem;
+	margin-left: 0.5rem;
+	cursor: pointer;
+}
+
+.editEmployee {
+	color: #2185d0 !important;
+}
+
+.end {
+	color: #db2828 !important;
+}
+
+.start {
+	color: #21ba45 !important;
+}
+
+.container {
+	min-height: 33rem;
+}
+
+.leftEmployeeContainer {
+	margin-top: 0.7rem;
+}

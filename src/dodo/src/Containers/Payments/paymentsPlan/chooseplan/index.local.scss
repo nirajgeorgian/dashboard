@@ -1,0 +1,54 @@
+.plansbox {
+  background-color: #F4F5F7 !important;
+  border-color: #F4F5F7 !important;
+  border-radius: 6px !important;
+  padding-top: 30px!important;
+  padding-bottom: 40px !important;
+  margin: 0 30px !important;
+  text-align: center !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.plansbox:hover {
+  background-color: #e2e6ec !important;
+}
+
+.pricetext {
+  color: #0057D8 !important;
+  font-size: 3em !important;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+.buttonSelect {
+  background-color: #0057D8 !important;
+  color: white !important;
+  border: 1px solid #0057D8 !important;
+}
+
+.buttonSelect:hover {
+  background-color: #0448ad !important;
+}
+
+.planselectbox {
+  background-color: #e2e6ec !important;
+}
+
+.removeBorder {
+  border-top: none !important;
+}
+
+.marginremove {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  margin-bottom: 15px !important;
+}
+
+.marginbottom {
+  margin-bottom: -30px;
+}
+
+.paytmcolor {
+  background-color: #20B9F5 !important;
+  color: white !important;
+}

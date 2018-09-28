@@ -1,0 +1,89 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+
+  .money_back {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 10vw;
+      width: 10vw;
+    }
+    .texts {
+      text-align: center;
+      width: 80%;
+      margin-top: 1rem;
+      h3 {
+        color: #0057d8;
+        font-size: 1.3rem;
+      }
+      .description {
+        color: #42526e;
+        font-weight: lighter;
+        font-size: 1.1rem;
+        strong {
+          color: black;
+        }
+      }
+      .no_condition {
+        color: #42526e;
+        font-weight: lighter;
+        font-size: 1.1rem;
+        text-decoration: underline;
+      }
+    }
+  }
+  .plans {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 100ms ease-in;
+
+    .plan {
+      border-radius: 6px;
+      padding: 2.2rem 1.5rem;
+      background-color: #f4f5f7;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      color: #42526e;
+      width: 30%;
+      margin-left: 5rem;
+      cursor: pointer;
+
+      .plan_name {
+        font-size: 1.8rem;
+        font-weight: bolder;
+      }
+      .plan_for {
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: center;
+      }
+      .price {
+        color: #0057d8;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .duration {
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+
+      .text {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      &:hover {
+        background-color: #e2e6ec;
+      }
+    }
+  }
+}

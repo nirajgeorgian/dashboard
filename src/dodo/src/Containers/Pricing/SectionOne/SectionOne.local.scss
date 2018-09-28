@@ -1,0 +1,27 @@
+.businessPlansContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	align-items: center;
+	.businessPLansHeader {
+		font-weight: lighter;
+		color: #0e5bd5;
+	}
+}
+
+.businessPlanCards {
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+}
+
+.businessCardsHeader {
+	color: #0057d8 !important;
+}
+
+.special {
+	color: #2db84b !important;
+}
+
+.divider {
+	position: relative;
+}

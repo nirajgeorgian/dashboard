@@ -1,0 +1,36 @@
+.membershipsbox {
+    min-height: calc(100vh - 140px);
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px #d2cccc;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.memberimg {
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.memberslistfield {
+    padding: 6px 2px 2px 2px;
+    margin-bottom: 2px !important;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 62px !important;
+}
+
+.toAge {
+    margin-top: 23px !important;
+}
+
+.backButton {
+    margin-right: 6px !important;
+}

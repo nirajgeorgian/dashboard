@@ -1,0 +1,74 @@
+.landfooterdivider {
+  background: #d5d7e0;
+  content: '';
+  display: block;
+  height: 2px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100vw;
+}
+
+.footer {
+  font-size: 1rem;
+  height: 6rem;
+  width: 100vw;
+  background-color: #f4f7f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.landcompanylogo {
+  width: 6.5rem;
+  height: 5rem;
+  flex: 1;
+  margin-left: 5vw;
+}
+
+.landprivacy {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.legal_text {
+  color: #333 !important;
+}
+
+.landsocialmedia {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  span {
+    margin-right: 1rem;
+  }
+  .icons {
+    display: flex;
+  }
+}
+
+.landsocialmedia i {
+  font-size: 1rem;
+}
+@media only screen and (max-width: 800px) {
+  .landsocialmedia {
+    flex-direction: column;
+  }
+  .landprivacy {
+    flex-direction: column;
+  }
+  .footer {
+    font-size: 0.9rem;
+  }
+  .landsocialmedia i {
+    font-size: 0.8rem;
+  }
+}

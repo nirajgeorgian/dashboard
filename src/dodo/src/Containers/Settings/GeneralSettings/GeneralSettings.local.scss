@@ -1,0 +1,53 @@
+.general_settings_header {
+	color: #0057d8 !important;
+}
+
+.sagepass_url {
+	display: flex !important;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	input {
+		flex: 1 !important;
+		min-width: 0px !important;
+	}
+	button {
+		flex: 0.7 !important;
+	}
+}
+
+.container {
+	position: relative;
+}
+
+.description {
+	max-height: 4rem;
+}
+
+.contact_name,
+.contact_number,
+.email_address {
+	min-width: 0px !important;
+}
+
+.country {
+	min-width: 0px !important;
+}
+.city {
+	min-width: 0px !important;
+}
+
+.address,
+.post_code {
+	min-width: 0px !important;
+}
+
+.operating_hours {
+	min-width: 0px !important;
+}
+
+.actions {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,35 @@
+.confirmBtn {
+  text-align: left !important;
+}
+
+.login {
+  float: right;
+  margin: 0 !important;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.noclick {
+  pointer-events: none;
+}
+
+.anchorPad {
+  padding-right: 10px;
+}
+.socialLiginBtnContainer {
+  // display: 'flex' !important;
+  // justify-content: 'space-around';
+  // align-items: 'center';
+  margin: 1rem auto;
+  text-align: center;
+}
+.socialLoginBtn {
+  width: 11rem;
+}
+
+.disabledCalenderItem {
+  pointer-events: none !important;
+  color: rgba(40, 40, 40, 0.3) !important;
+}

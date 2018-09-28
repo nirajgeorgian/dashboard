@@ -1,0 +1,42 @@
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_label {
+  margin-right: 1.3rem;
+  flex: 1;
+  text-align: right;
+}
+
+.form {
+  flex: 1;
+}
+.form_select div {
+  color: #0057d8 !important;
+  i {
+    color: #0057d8 !important;
+  }
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #d95c5c;
+}
+
+.message {
+  margin-top: 1rem !important;
+}
+
+.checkbox {
+  text-align: center;
+}

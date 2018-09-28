@@ -1,0 +1,91 @@
+.transactionSearch {
+	padding: 0 !important;
+	position: relative;
+
+	input {
+		margin-left: 2px !important;
+		margin-right: 2px !important;
+		border: none !important;
+	}
+}
+.fromDate,
+.toDate {
+	padding: 0 !important;
+	position: relative;
+
+	input {
+		margin-left: 2px !important;
+		margin-right: 2px !important;
+		border: none !important;
+	}
+}
+
+.position {
+	top: 20rem !important;
+}
+
+.container {
+	min-height: 30rem;
+}
+
+.attendanceItem {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	&:hover {
+		background-color: whitesmoke;
+	}
+}
+
+.divider {
+	margin: 0 !important;
+}
+
+.directMessageText {
+	text-align: center;
+	color: #d95c5c;
+}
+
+.comment {
+	width: 25%;
+}
+.device {
+	width: 12.5%;
+}
+
+.outorin {
+	width: 6.75%;
+}
+.date {
+	width: 15.5%;
+}
+
+.time {
+	width: 12.5%;
+	display: flex;
+	justify-content: center;
+}
+
+.employeeName {
+	font-weight: bolder;
+	cursor: pointer;
+	width: 18.75%;
+}
+.attendanceMessage {
+	font-size: 1.2rem;
+	cursor: pointer;
+	width: 6.75%;
+	display: flex;
+	justify-content: center;
+}
+
+.attendanceClose {
+	font-size: 1.2rem;
+	cursor: pointer;
+	padding-right: 2.5rem;
+	width: 6.75%;
+	display: flex;
+	justify-content: center;
+}

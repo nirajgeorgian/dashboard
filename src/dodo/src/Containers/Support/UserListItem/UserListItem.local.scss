@@ -1,0 +1,47 @@
+.container {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  cursor: pointer;
+
+  .avatar {
+    height: 3.5rem !important;
+    width: 3.5rem !important;
+    margin-left: 0.6rem;
+  }
+  a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 0.6rem;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.1rem;
+  }
+}
+
+.container_active {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+
+  .avatar {
+    height: 3.5rem !important;
+    width: 3.5rem !important;
+    margin-left: 0.6rem;
+  }
+  a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 0.6rem;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.1rem;
+  }
+}
+
+.container:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}

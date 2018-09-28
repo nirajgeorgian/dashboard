@@ -1,0 +1,288 @@
+.landlogobox {
+	margin-left: 5vw;
+}
+
+.headertabs {
+	max-width: 200px;
+	min-width: 100px;
+	display: inline;
+	padding: 21.5px;
+	top: 15px;
+	position: relative;
+	a {
+		color: #0057d8;
+		font-size: 16px;
+		margin: 0 10px;
+		cursor: pointer;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.authbox {
+	float: right;
+	padding: 12.5px 0;
+	margin-right: 5vw;
+	min-width: 120px;
+	font-size: 16px;
+	max-width: 500px;
+}
+
+.landsection1 {
+	height: 500px;
+	width: 100vw;
+	top: 20px;
+	background-image: url('../../../assests/img/sp_cover.png');
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: repeat-x;
+	color: #253858;
+}
+
+.l1_contents {
+	position: relative;
+	height: 370px;
+	top: 60px;
+	width: calc(100vw - 200px);
+	margin: 40px 100px;
+	text-align: center;
+	h1 {
+		font-size: 40px;
+		margin-bottom: 14px;
+		-webkit-transition: opacity 0.5s ease-in-out;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-ms-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
+	}
+	a {
+		color: #42526e;
+		margin: 40px;
+		display: block;
+		font-size: 18px;
+	}
+}
+
+.landsection2 {
+	height: 400px;
+	width: 100vw;
+	background-color: #f4f7f9;
+}
+
+.landsection3 {
+	height: 500px;
+	width: 100vw;
+	background-color: white;
+}
+
+.landsection4 {
+	height: 200px;
+	width: 100vw;
+	background-color: #f4f7f9;
+}
+
+.loginmodal .header center {
+	font-family: 'Roboto', sans-serif;
+	color: #0057d8;
+}
+
+.loginmodal button {
+	margin-bottom: 10px !important;
+}
+
+.checkmark {
+	font-size: 10px !important;
+}
+
+footer {
+	position: relative;
+	height: 100px;
+	width: 100vw;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.landcompanydiv {
+	height: 80px;
+	width: 100px;
+	margin: 10px 0px;
+	display: inline;
+	position: relative;
+	top: 10px;
+}
+
+.landcompanylogo {
+	width: 90px;
+	height: 80px;
+	display: inline-block;
+}
+
+.landprivacy {
+	display: inline;
+	text-align: center;
+	bottom: 20px;
+	position: relative;
+}
+
+.landprivacy a {
+	display: inline-block;
+	color: #42526e;
+	margin-left: 30px;
+}
+
+.legalText {
+	color: #333 !important;
+}
+
+.landsocialmedia {
+	display: inline;
+	width: 100%;
+	text-align: center;
+	bottom: 20px;
+	position: relative;
+	margin-left: 100px;
+	span {
+		margin-right: 20px;
+	}
+	i {
+		font-size: 16px;
+	}
+}
+
+.logoletter {
+	height: 30px;
+	padding: 7.5px 0px 5px 5px;
+	font-size: 30px;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	/* color: #0a68c3; */
+	color: #0057d8;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.logosmallletter {
+	height: 30px;
+	padding: 15px 0px 5px 5px;
+	font-size: 12px;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	/* color: #0a68c3; */
+	color: #0057d8;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 170px;
+}
+
+.container {
+	margin-top: -2rem;
+	overflow-y: hidden;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	.header {
+		width: 100vw;
+		position: relative;
+		z-index: 999999;
+		height: 5rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #fbfbfb;
+		box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+		.logo a {
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			img {
+				height: 3rem;
+				width: 3rem;
+				margin-left: 3rem;
+			}
+			.sagepass {
+				font-size: 2.3rem;
+				color: #0057d8;
+				padding-left: 0.4rem;
+				position: relative;
+				&::after {
+					content: 'for Business';
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+	.body {
+		flex: 1;
+		background-color: #fff;
+		position: relative;
+		img {
+			height: 80vh;
+			width: 95vw;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
+
+///////////////
+
+.changeColor {
+	color: #0057d8 !important;
+}
+
+.userbox {
+	float: right;
+	padding: 10px 0 10px 0;
+	margin-right: 20px;
+	min-width: 300px;
+	font-size: 16px;
+	max-width: 500px;
+}
+
+.userlogo {
+	cursor: pointer;
+	float: right;
+	border-radius: 4px;
+}
+
+.userdivide {
+	height: 30px;
+	width: 1px;
+	display: inline-block;
+	position: relative;
+	top: 6px;
+	background-color: #cfe9f3;
+	margin: 0 10px 0 10px;
+	float: right;
+}
+
+.useralarm {
+	float: right;
+	padding: 12.5px 0px 5px 5px;
+	cursor: pointer;
+}
+
+.username {
+	padding: 12.5px 0px 5px 5px;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+	color: #0057d8;
+	&:hover {
+		color: #4183c4;
+	}
+}
+
+.Open {
+	transform: translateX(0);
+}
+
+.Close {
+	transform: translateX(-100%);
+}

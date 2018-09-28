@@ -1,0 +1,26 @@
+.eventsbox {
+    min-height: calc(100vh - 140px);
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px #d2cccc;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.itemColor {
+    // color: #0057D8 !important;
+    &:active {
+        border-color: #0057D8 !important;
+    }
+}
+
+.itemColor2 {
+    color: #0057D8 !important;
+    border-color: #0057D8 !important;
+}
+
+.fullSegment {
+    min-height: calc(100vh - 17rem);
+}

@@ -1,0 +1,46 @@
+.incomeStatementCard {
+	width: 100% !important;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	color: #525252;
+	font-size: 1.1rem;
+
+	.item {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.special_item {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		font-weight: bolder;
+	}
+
+	.netProfit {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		font-weight: bolder;
+		color: #0057d8 !important;
+		font-size: 1.3rem;
+		margin-top: 1rem;
+	}
+}
+
+.divider {
+	margin: 0 !important;
+}
+
+.indented {
+	margin-left: 1rem;
+}
+
+.mainContent {
+	border: none !important;
+	padding-top: 0 !important;
+}

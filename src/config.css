@@ -1,0 +1,19 @@
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.con-sm {
+	width: 576px;
+}
+
+.con-md {
+	width: 768px;
+}
+
+.con-lg {
+	width: 992px;
+}

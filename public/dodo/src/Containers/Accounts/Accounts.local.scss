@@ -1,0 +1,18 @@
+.container {
+	width: 97%;
+	background-color: #fff;
+	box-shadow: 0 0 10px #d2cccc;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 8px;
+}
+
+.panes {
+}
+
+.active_tab {
+	color: #0057d8 !important;
+	border-color: #0057d8 !important;
+}

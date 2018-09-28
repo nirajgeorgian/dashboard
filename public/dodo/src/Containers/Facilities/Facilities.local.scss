@@ -1,0 +1,20 @@
+.facilitiesbox {
+    margin: 0 12.5px 10px 5px;
+    min-height: calc(100vh - 140px);
+    background-color: white;
+    box-shadow: 0 0 10px #d2cccc;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.itemColor {
+    // color: #0057D8 !important;
+    &:active {
+        border-color: #0057D8 !important;
+    }
+}
+
+.itemColor2 {
+    color: #0057D8 !important;
+    border-color: #0057D8 !important;
+}

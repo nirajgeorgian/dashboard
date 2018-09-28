@@ -1,0 +1,29 @@
+.removeBorder {
+  border-top: none !important;
+}
+
+.value {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1em;
+  color: #1b1c1d;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.margintop {
+  margin-top: 20px !important
+}
+
+.label {
+  display: block;
+  margin: 0 0 .28571429rem 0;
+  color: rgba(0,0,0,.87);
+  font-size: .92857143em;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.marginnegativetop {
+  margin-bottom: -20px !important
+}

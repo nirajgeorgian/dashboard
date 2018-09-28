@@ -1,0 +1,27 @@
+.miniImage {
+	transform: scale(0.9) !important;
+	border-radius: 0.5rem;
+	margin-right: 0.6rem;
+}
+
+.employeeCell {
+	padding: 0.5rem !important;
+}
+
+.cellContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.container {
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	top: 0.8rem;
+	left: 0.5rem;
+	color: rgba(0, 0, 0, 0.4);
+}
